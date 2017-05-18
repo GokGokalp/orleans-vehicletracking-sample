@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.GrainInterfaces", "VehicleTracking.GrainInterfaces\VehicleTracking.GrainInterfaces.csproj", "{F8EB111B-A644-45C6-AE67-02AB3EB65366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.Grains", "VehicleTracking.Grains\VehicleTracking.Grains.csproj", "{E536D45D-DF1A-4E1F-A052-437B86179B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.TestSilo", "VehicleTracking.TestSilo\VehicleTracking.TestSilo.csproj", "{B98A3211-3CAE-4E8E-8CD6-6C90C65CF4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.Common", "VehicleTracking.Common\VehicleTracking.Common.csproj", "{04279889-C6E8-4DF2-B9D7-3F30A2912D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.Api", "VehicleTracking.Api\VehicleTracking.Api.csproj", "{6357B8E9-EA0D-4D7C-9D64-02EEFE3A504B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD316C98-E4E9-45BF-9EB2-01BC12B17062}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8EB111B-A644-45C6-AE67-02AB3EB65366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EB111B-A644-45C6-AE67-02AB3EB65366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EB111B-A644-45C6-AE67-02AB3EB65366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EB111B-A644-45C6-AE67-02AB3EB65366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E536D45D-DF1A-4E1F-A052-437B86179B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E536D45D-DF1A-4E1F-A052-437B86179B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E536D45D-DF1A-4E1F-A052-437B86179B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E536D45D-DF1A-4E1F-A052-437B86179B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98A3211-3CAE-4E8E-8CD6-6C90C65CF4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98A3211-3CAE-4E8E-8CD6-6C90C65CF4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98A3211-3CAE-4E8E-8CD6-6C90C65CF4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98A3211-3CAE-4E8E-8CD6-6C90C65CF4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04279889-C6E8-4DF2-B9D7-3F30A2912D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04279889-C6E8-4DF2-B9D7-3F30A2912D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04279889-C6E8-4DF2-B9D7-3F30A2912D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04279889-C6E8-4DF2-B9D7-3F30A2912D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6357B8E9-EA0D-4D7C-9D64-02EEFE3A504B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6357B8E9-EA0D-4D7C-9D64-02EEFE3A504B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6357B8E9-EA0D-4D7C-9D64-02EEFE3A504B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6357B8E9-EA0D-4D7C-9D64-02EEFE3A504B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
